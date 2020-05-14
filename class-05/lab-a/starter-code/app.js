@@ -82,21 +82,12 @@ Test this function by hand in the console to get it working, and when you think 
 var testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
-    var totalAdd;
-    for (var i=1;i<sumArr.length;i++){
-        if (i=1){
-            totalAdd=sum(sumArr[i],sumArr[i-1])[0];
-        }else{
-            totalAdd=sum(totalAdd,sumArr[i])[0];
-        }
-    }
-    var msg = `${sumArr} was passed in as an array of numbers, and ${totalAdd} is their sum.`;
-    return [totalAdd, msg];
+   
 }
 
 // Here is the test for sumArray(); uncomment it to run it
 
-testSumArray(testArray);
+//testSumArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -112,17 +103,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
-    var totla;
     
-    for (var j = 1; j < multArr.length; j++) {
-        if (j = 1) {
-            totla = multiply(multArr[j], multArr[j - 1])[0];
-        } else {
-            totla = multiply(totla, multArr[j])[0];
-        }
-    }
-    console.log(totla)
-    return [totla, `The numbers ${multArr} have a product of 24.`]
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
